@@ -20,12 +20,12 @@
 
 <img src="https://github.com/kkumtori/HANIUM-Dog-Leash-Detection-Project/assets/112691501/fe47f8cb-d138-49c4-815f-893ac18e11cb" width="200">  
 
-|이름|역할|담당업무|github|
-|:---|:---:|:---:|:---:|
-|조세은|팀장|기획/백엔드/웹설계|https://github.com/ariel-ssen|
-|강지원|팀원|백엔드/웹 설계/서버구축/파이프라인 설계 및 구축|https://github.com/EarthWon|
-|노지예|팀원|데이터 수집 및 전처리/AI/프론트엔드/알고리즘 설계 및 구축|https://github.com/kkumtori|
-|오승범|팀원|데이터 수집 및 전처리/AI/프론트엔드/백엔드/하드웨어 설계|https://github.com/Sbeom12|
+|이름|담당업무|github|
+|:---|:---:|:---:|
+|조세은|기획/백엔드/웹설계|https://github.com/ariel-ssen|
+|강지원|백엔드/웹 설계/서버구축/파이프라인 설계 및 구축|https://github.com/EarthWon|
+|노지예|데이터 수집 및 전처리/AI/프론트엔드/알고리즘 설계 및 구축|https://github.com/kkumtori|
+|오승범|데이터 수집 및 전처리/AI/프론트엔드/백엔드/하드웨어 설계|https://github.com/Sbeom12|
 
   
 ## **프로젝트 소개**
