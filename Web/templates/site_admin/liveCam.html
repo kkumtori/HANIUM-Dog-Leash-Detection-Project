@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{% static 'css/livecam.css' %}"/>
+        <script defer type="module" src="{% static 'js/livecam.js' %}"></script>
+        <title>Document</title>
+    </head>
+    <body>
+
+        <!-- 고정바 -->
+        <div class="v20_125">
+            <div class="top">
+                <a href="#"><img src="/../static/images/LOGO.svg"/></a>
+                <span class = 'new'>신규알람 2건
+                    <img class='bell' src="/../static/images/bell.svg"/>
+                </span>
+                
+            </div>
+            <div class="side">
+                <a href="{% url 'site_admin:main' %}">
+                    <button class="dashboard">
+                        <div class="name"></div>
+                        <span class="yet_click">대시보드</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:detail' %}">
+                    <button class="total">
+                        <div class="name"></div>
+                        <span class="yet_click">전체내역</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:liveCam' %}">
+                    <button class="livecam">
+                        <div class="name"></div>
+                        <span class="now_click">LIVECAM</span>
+                    </button>
+                </a>    
+
+                <a href="{% url 'site_admin:statistics' %}">
+                    <button class="statistic">
+                        <div class="name"></div>
+                        <span class="yet_click">통계</span>
+                    </button>
+                </a>      
+
+                <a href="{% url 'site_admin:setting' %}">
+                    <button class="setting">
+                        <div class="name"></div>
+                        <span class="yet_click">관리자설정</span>
+                    </button>
+                </a>
+            </div>
+
+        <!-- CAM  -->
+            <div class="content">
+                <div class="title">LIVECAM</div>
+                <div class="main">
+                    <div class="cam_box_1">
+                        <div class="cam_num_1">CAM 01</div>
+                        <div class="cam_video_1">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                    <div class="cam_box_2">
+                        <div class="cam_num_2">CAM 02</div>
+                        <div class="cam_video_2">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                    <div class="cam_box_3">
+                        <div class="cam_num_3">CAM 03</div>
+                        <div class="cam_video_3">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                    <div class="cam_box_4">
+                        <div class="cam_num_4">CAM 04</div>
+                        <div class="cam_video_4">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                    <div class="cam_box_5">
+                        <div class="cam_num_5">CAM 05</div>
+                        <div class="cam_video_5">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                    <div class="cam_box_6">
+                        <div class="cam_num_6">CAM 06</div>
+                        <div class="cam_video_6">
+                            <video id="video" width="400" height="250" autoplay></video>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>

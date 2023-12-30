@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <script defer type="module" src="{% static 'js/main.js' %}"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top-bar">
+        <button class="top-button" id="live-cam"> 
+            <a href="{% url 'site_admin:liveCam' %}">LIVE <span>CAM</span></a>
+        </button>
+
+        <button class="top-button" id="write">
+            <a href="{% url 'site_admin:setting' %}">안내 멘트 작성</a>
+        </button> 
+
+        <button class="top-button" id="record">
+            <a href="{% url 'site_admin:detail' %}">기록</a>
+        </button>
+    </div>
+
+    <div class="mid-bar"> 
+        <div class="mid-buttons">
+            <button class="mid-button" id="all">ALL</button>
+            <button class="mid-button" id="today">오늘</button>
+        </div>  
+        <h1>알림 횟수 <span>10회</span></h1>
+    </div>
+
+    <div class="chart">
+        그래프 들어가자
+    </div>
+</body>
+
+</html>

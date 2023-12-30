@@ -1,0 +1,188 @@
+{% load static %}
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/detail.css' %}"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer type="module" src="{% static 'js/detail.js' %}"></script>
+    <title>Doucument</title>
+</head>
+
+<body>
+    <div class="v20_125">
+        <div class="top">
+            <a href="#"><img src="/../static/images/LOGO.svg"/></a>
+            <span class = 'new'>신규알람 2건
+                <img class='bell' src="/../static/images/bell.svg"/>
+            </span>
+            
+        </div>
+        <div class="side">
+            <a href="{% url 'site_admin:main' %}">
+                <button class="dashboard">
+                    <div class="name"></div>
+                    <span class="yet_click">대시보드</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:detail' %}">
+                <button class="total">
+                    <div class="name"></div>
+                    <span class="now_click">전체내역</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:liveCam' %}">
+                <button class="livecam">
+                    <div class="name"></div>
+                    <span class="yet_click">LIVECAM</span>
+                </button>
+            </a>    
+
+            <a href="{% url 'site_admin:statistics' %}">
+                <button class="statistic">
+                    <div class="name"></div>
+                    <span class="yet_click">통계</span>
+                </button>
+            </a>      
+
+            <a href="{% url 'site_admin:setting' %}">
+                <button class="setting">
+                    <div class="name"></div>
+                    <span class="yet_click">관리자설정</span>
+                </button>
+            </a>
+        </div>
+        <div class="content">
+            <div class="title">전체내역</div>
+            <div class="main">
+                <div class="button_container">
+                    <button class="toggle hide">삭제항목 가리기</button>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const trs = document.querySelectorAll('tr');
+                    
+                        trs.forEach(tr => {
+                        if (tr.id === 'old_alarm') {
+                            const actionCell = tr.querySelector('td[id="action"]');
+                            actionCell.textContent = '접수완료';
+                        }
+                        });
+                    });
+
+                    document.addEventListener('DOMContentLoaded', function() {
+                    //   //접수 버튼 누르면 접수 완료 바뀜
+                        const acceptBtns = document.querySelectorAll('.accept');
+
+                        acceptBtns.forEach(btn => {
+                        btn.addEventListener('click', function() {
+                        const row = btn.closest('tr');
+                        row.id = 'old_alarm';
+
+                        const actionCell = row.querySelector('td[id="action"]');
+                        actionCell.textContent = '접수 완료';
+                        });
+                        });
+                    });
+                    function deletebuttonsetting() {
+                        const accept_delete = document.getElementById('action');
+                        const new_delete = document.getElementById('new_alarm');
+                        swal.fire({
+                            icon: 'warning',
+                            title: '정말 삭제하시겠습니까?',
+                            text: 'OKAY DOGIE',
+                            showCancelButton: true,
+                            confirmButtonColor: '#10B981',
+                            cancelButtonColor: '#d33',
+                            confirmButtonText: '확인',
+                            cancelButtonText: '취소'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                Swal.fire({
+                                    title :'설정이 적용되었습니다.', 
+                                    text: '', 
+                                    icon: 'success',
+                                    confirmButtonColor: '#10B981'
+                                })
+                                accept_delete.innerText = '삭제완료';
+                                new_delete.id = 'old_alarm_d';
+                            }
+                        })
+                    }
+                    async function acceptbuttonsetting(){
+                        const { value: name } = await Swal.fire({
+                            title: '담당자를 선택해주세요',
+                            input: 'select',
+                            inputOptions: {
+                            '마포구': {
+                                강지원1: '강지원1',
+                                강지원2: '강지원2',
+                                강지원3: '강지원3',
+                                강지원4: '강지원4'
+                            },
+                            '구로구': {
+                                노지예1: '노지예1',
+                                노지예2: '노지예2',
+                                노지예3: '노지예3'
+                            },
+                            '가산디': {
+                                조세은1 : '조세은1',
+                                조세은2 : '조세은2'
+                            }
+                            },
+                            inputPlaceholder: '담당자',
+                            showCancelButton: true,
+                            confirmButtonColor: '#10B981',
+                            cancelButtonColor: '#d33',
+                        })
+                            if (name) {
+                                Swal.fire(
+                                {
+                                    title:'접수가 완료되었습니다.', 
+                                    text: `담당자 : ${name}`,
+                                    confirmButtonColor: '#10B981',
+                                    cancelButtonColor: '#d33',
+                                    confirmButtonText: '확인',
+                                    cancelButtonText: '취소'
+                                })
+                        }
+                    }
+                </script>
+                <!-- 테이블 시작 -->
+                <div class="table_container">
+                    <div class="recent" >
+                        <table id="table_recent">
+                            <thead>  
+                                <tr>
+                                    <th scope="col" id="col">화면</th>
+                                    <th scope="col" id="col">위치</th>
+                                    <th scope="col" id="col">시간</th>
+                                    <th scope="col" id="col">대응</th>
+                                </tr>
+                            </thead>
+                            <tbody id="info_table_tbody">
+                                <tr id="new_alarm" class="info_1">
+                                    <td id="info_screen"><img src="/../static/images/dog_sample.png" ></td>
+                                    <td>구로근린공원 <br> (전)0110P_032</td>
+                                    <td>2023-07-03 21:15</td>
+                                    <td id="action">
+                                        <button onclick ="javascript:acceptbuttonsetting()" class="accept">접수</button><button  onclick ="javascript:deletebuttonsetting()" class="delete">삭제</button>
+                                    </td>
+                                </tr>
+                                <tr id="old_alarm" class="info_4">
+                                    <td id="info_screen"><img src="/../static/images/dog_sample.png"></td>
+                                    <td>구로근린공원 <br> (전)0110P_032</td>
+                                    <td>2023-07-03 21:15</td>
+                                    <td id="action"><button onclick ="javascript:acceptbuttonsetting()" class="accept">접수</button><button onclick ="javascript:deletebuttonsetting()" class="delete">삭제</button></td>
+                                </tr>                               
+                            </tbody>
+                        </table>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,134 @@
+{% load static %}
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer type="module" src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/detail.js' %}"></script>
+    <title>오키도기</title>
+</head>
+
+<body>
+    <div class="v20_125">
+        <div class="top">
+            <a href="#"><img src="../static/images/LOGO.svg"/></a>
+            <span class = 'new'>신규알람 1000000건
+                <img class='bell' src="../static/images/bell.svg"/>
+            </span>
+            
+        </div>
+        <div class="side">
+            <a href="{% url 'site_admin:main' %}">
+                <button class="dashboard">
+                    <div class="name"></div>
+                    <span class="now_click">대시보드</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:detail' %}">
+                <button class="total">
+                    <div class="name"></div>
+                    <span class="yet_click">전체내역</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:liveCam' %}">
+                <button class="livecam">
+                    <div class="name"></div>
+                    <span class="yet_click">LIVECAM</span>
+                </button>
+            </a>    
+
+            <a href="{% url 'site_admin:statistics' %}">
+                <button class="statistic">
+                    <div class="name"></div>
+                    <span class="yet_click">통계</span>
+                </button>
+            </a>      
+
+            <a href="{% url 'site_admin:setting' %}">
+                <button class="setting">
+                    <div class="name"></div>
+                    <span class="yet_click">관리자설정</span>
+                </button>
+            </a>
+        </div>
+        <div class="content">
+            <div class="title">대시보드</div>
+            <div class="main">
+                <div class="today">
+                    <div class="summary">
+                        <div class="subtitle">TODAY</div>
+                        <div class="summary_today">
+                            <div id='doughnutchartcontainer'>
+                                <div id='doughnutchart'><canvas id="todaychart"></canvas></div>
+                                <div class="absolute-center text-center">
+                                    <p id='ftext'>전체</p>
+                                    <p id='stext'>10건</p>
+                                </div>
+                            </div>
+                            <div id='todaysummarybox'>
+                                <div id ='todaytop'> 
+                                    <div id='color' style ='background-color: #10B981;'></div>
+                                    <div id='chartname'>접수 건수</div>
+                                    <div id='chartnumber'>7건</div>
+                                    <div id='chartpercent'>70%</div>
+                                </div>
+                                <div id ='todaymiddle'> 
+                                    <div id='color' style ='background-color: #6EE7B7;'></div>
+                                    <div id='chartname'>삭제 건수</div>
+                                    <div id='chartnumber'>2건</div>
+                                    <div id='chartpercent'>20%</div>
+                                </div>
+                                <div id ='todaybottom'> 
+                                    <div id='color' style ='background-color: #27272A;'></div>
+                                    <div id='chartname'>미완료 건수</div>
+                                    <div id='chartnumber'>1건</div>
+                                    <div id='chartpercent'>10%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="subtitle" >시간대별 적발 현황</div>
+                        <div class="time_today">
+                            <div id='timechartcontainer'><canvas id="todaytimechart"></canvas></div>
+                        </div>
+                    </div>
+                    <div class="place" >
+                        <div class="subtitle">장소별 적발 현황</div>
+                        <div class="place_today">
+                            <div id='boxchartcontainer'><canvas id ="todayplacechart"></canvas></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent" >
+                    <div class="subtitle" id="recent_subtitle" >
+                        <div>최근 알람</div>
+                        <a href="{% url 'site_admin:detail' %}" style="text-decoration-line:none">
+                            <div id="show_detail">상세보기
+                                <img src="../static/images/chevron-right.svg" style="vertical-align: middle;">
+                            </div>
+                        </a>
+                    </div>
+                    <table class="table_recent">
+                        <thead>  
+                            <tr>
+                                <th scope="col" id="col">화면</th>
+                                <th scope="col" id="col">위치</th>
+                                <th scope="col" id="col">시간</th>
+                                <th scope="col" id="col">대응</th>
+                            </tr>
+                        </thead>
+                        <tbody id="info_table_tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+

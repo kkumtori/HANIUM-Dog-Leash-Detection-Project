@@ -1,0 +1,219 @@
+{% load static %}
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="{% static 'css/statistics.css' %}"/> -->
+    <script defer type="module" src="{% static 'js/statistics.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>통계</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="{% static 'css/statistics.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.ko.min.js"></script>
+</head>
+<body>
+    <div class="v20_125">
+        <div class="top">
+            <a href="#"><img src="/../static/images/LOGO.svg"/></a>
+            <span class = 'new'>신규알람 2건
+                <img class='bell' src="/../static/images/bell.svg"/>
+            </span>
+        </div>
+        <div class="side">
+            <a href="{% url 'site_admin:main' %}">
+                <button class="dashboard">
+                    <div class="name"></div>
+                    <span class="yet_click">대시보드</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:detail' %}">
+                <button class="total">
+                    <div class="name"></div>
+                    <span class="yet_click">전체내역</span>
+                </button>
+            </a>
+
+            <a href="{% url 'site_admin:liveCam' %}">
+                <button class="livecam">
+                    <div class="name"></div>
+                    <span class="yet_click">LIVECAM</span>
+                </button>
+            </a>    
+
+            <a href="{% url 'site_admin:statistics' %}">
+                <button class="statistic">
+                    <div class="name"></div>
+                    <span class="now_click">통계</span>
+                </button>
+            </a>        
+
+            <a href="{% url 'site_admin:setting' %}">
+                <button class="setting">
+                    <div class="name"></div>
+                    <span class="yet_click">관리자설정</span>
+                </button>
+            </a>
+        </div>
+        <div class="content">
+            <div class="title">통계</div>
+            <div class="main">
+                <!----------------------------------------------- 시간별----------------------------------------- -->
+                <div class="time_count">
+                    <div id="subtitle">
+                        <sapn>시간별 알림 횟수</sapn>
+                        <div class="inputs">
+                            <span style="font-size: 14px;">날짜 변경</span>
+                            <form>
+                                <div class="form-group">
+                                    <input value="TODAY    " type="text" class="form-control" id="datepicker1" style="width:114px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                    background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                        $(document).ready(function() {
+                            $("#datepicker1").datepicker({
+                                format: 'yyyy-mm-dd',
+                                language: 'ko',
+                                autoclose: true,
+                                todayHighlight: true
+                            });
+                        });
+                        </script>
+                    </div>
+                    <div id="chart_container_time">
+                        <canvas id="timechart"></canvas>
+                    </div>
+                </div>
+                <!----------------------------------------------- 요일별----------------------------------------- -->
+                <div class="day_count">
+                    <div id="subtitle">
+                        <sapn>요일별 알림 횟수</sapn>
+                        <div class="inputs">
+                            <span style="font-size: 14px;">주차 변경</span>
+                            <form>
+                                <div class="form-group">
+                                    <input value="Sunday ~ Monday   " type="text" class="form-control" id="datepicker2" style="width:185px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                    background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            $(document).ready(function() {
+                                $('#datepicker2').datepicker( {
+                                        format: "yyyy-mm-dd",
+                                        autoclose: true,
+                                        language:'ko'
+                                    }).on('show', function(e){
+                                        var tr = $('body').find('.datepicker-days table tbody tr');
+                                        tr.mouseover(function(){
+                                            $(this).addClass('week-over');
+                                        });
+                                        tr.mouseout(function(){
+                                            $(this).removeClass('week-over');
+                                        });
+                                        calculate_week_range(e);
+                                    }).on('hide', function(e){
+                                        console.log('date changed');
+                                        calculate_week_range(e);
+                                    });
+                                    var calculate_week_range = function(e){
+                                        var input = e.currentTarget;
+                                        $('body').find('.datepicker-days table tbody tr').removeClass('week-active');
+                                        var tr = $('body').find('.datepicker-days table tbody tr td.active.day').parent();
+                                        tr.addClass('week-active');
+                                        var date = e.date;
+                                        var start_date = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay());
+                                        var end_date = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay() + 6);
+                                        var friendly_string = start_date.getFullYear() + '-' + (start_date.getMonth() + 1) + '-' + start_date.getDate()  + ' ~ '
+                                            + end_date.getFullYear() + '-' + (end_date.getMonth() + 1) + '-' + end_date.getDate();
+                                        console.log(friendly_string);
+                                        $(input).val(friendly_string);
+                                    }
+                            });
+                        </script>
+                    </div>
+                    <div id="chart_container_day">
+                        <canvas id="daychart"></canvas>
+                    </div>
+                </div>
+                <!----------------------------------------------- 월별----------------------------------------- -->
+                <div class="month_count">
+                    <div id="subtitle">
+                        <sapn>월별 알림 횟수</sapn>
+                        <div class="inputs">
+                            <span style="font-size: 14px;">연도 변경</span>
+                            <form>
+                                <div class="form-group">
+                                    <input value="YEAR" type="text" class="form-control" id="datepicker3" style="width:77px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                    background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <script>
+                        $(document).ready(function() {
+                            $("#datepicker3").datepicker({
+                                format: 'yyyy',
+                                viewMode: "years",
+                                minViewMode: "years",
+                                language: 'ko',
+                                autoclose: true,
+                                todayHighlight: true
+                            });
+                        });
+                        </script>
+                    </div>
+                    <div id="chart_container_month">
+                        <canvas id="monthchart"></canvas>
+                    </div>
+                </div>
+
+                    <!----------------------------------------------- 우선순위----------------------------------------- -->
+                <div class="small_boxes">
+                    <div class="main_place">
+                        <div id="subtitle">단속 우선 위치</div>
+                        <ul id="top-container">
+                            <li class="ranking first">
+                                <div class="nums">1</div>
+                                <div class="circle" style="background: #30C9CF;"></div>
+                                <sapn class="top_text">(전)0110P_032</sapn>
+                            </li>
+                            <li class="ranking second">
+                                <div class="nums">2</div>
+                                <div class="circle" style="background: #3CCEA0;"></div>
+                                <sapn class="top_text">(전)0110P_032</sapn>
+                            </li>
+                            <li class="ranking third">
+                                <div class="nums">3</div>
+                                <div class="circle" style="background: #9CC1F6;"></div>
+                                <sapn class="top_text">(전)0110P_032</sapn>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div class="main_time">
+                        <div id="subtitle_time">단속 주요 시간</div>
+                        <div id="chart_container_time"></div>
+                        <ul id="topTimeAlertsList">
+                            <!-- 여기에 상위 3개의 시간대 정보가 추가될 것입니다 -->
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+
+
+
+
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
