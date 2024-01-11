@@ -1,0 +1,18 @@
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.chart-container {
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    
+}

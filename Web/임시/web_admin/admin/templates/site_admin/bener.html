@@ -1,0 +1,43 @@
+<div class="top">
+    <a href="{% url 'site_admin:main' %}"><img src="/../static/images/LOGO.svg" 
+    style="vertical-align: middle;border-style: none;"/></a>
+    <span class = 'new'>신규알람 0건
+        <img class='bell' src="\web_admin\admin\static\images\bell.svg"/>
+    </span>
+</div>
+<div class="side">
+    <a href="{% url 'site_admin:main' %}">
+        <button class="dashboard">
+            <div class="name"></div>
+            <span class="yet_click">대시보드</span>
+        </button>
+    </a>
+
+    <a href="{% url 'site_admin:detail' %}">
+        <button class="total">
+            <div class="name"></div>
+            <span class="yet_click">전체내역</span>
+        </button>
+    </a>
+
+    <a href="{% url 'site_admin:liveCam' %}">
+        <button class="livecam">
+            <div class="name"></div>
+            <span class="yet_click">LIVECAM</span>
+        </button>
+    </a>    
+
+    <a href="{% url 'site_admin:statistics' %}">
+        <button class="statistic">
+            <div class="name"></div>
+            <span class="yet_click">통계</span>
+        </button>
+    </a>      
+
+    <a href="{% url 'site_admin:setting' %}">
+        <button class="setting">
+            <div class="name"></div>
+            <span class="now_click">관리자설정</span>
+        </button>
+    </a>
+</div>

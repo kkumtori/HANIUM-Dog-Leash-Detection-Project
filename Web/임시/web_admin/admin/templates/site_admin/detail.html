@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{% static 'css/detail.css' %}"/>
+        <link rel="stylesheet" href="{% static 'css/topleft.css' %}"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <!-- <script defer type="module" src="{% static 'js/detail.js' %}"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="{% static 'js/detail.js' %}"></script>
+        <script src="/static/js/topalarmicon.js"></script>
+        <script src="/static/js/accept_delete.js"></script>
+        <title>오키도기</title>
+    </head>
+
+    <body>
+        <div class="v20_125">
+            <div class="top">
+                <a href="{% url 'site_admin:main' %}"><img src="/../static/images/LOGO.svg" 
+				style="vertical-align: middle;border-style: none;"/></a>
+                <span class = 'new'>신규알람 6건
+                    <img class='bell' src="\web_admin\admin\static\images\bell.svg"/>
+                </span>
+            </div>
+            <div class="side">
+                <a href="{% url 'site_admin:main' %}">
+                    <button class="dashboard">
+                        <div class="name"></div>
+                        <span class="yet_click">대시보드</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:detail' %}">
+                    <button class="total">
+                        <div class="name"></div>
+                        <span class="now_click">전체내역</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:liveCam' %}">
+                    <button class="livecam">
+                        <div class="name"></div>
+                        <span class="yet_click">LIVECAM</span>
+                    </button>
+                </a>    
+
+                <a href="{% url 'site_admin:statistics' %}">
+                    <button class="statistic">
+                        <div class="name"></div>
+                        <span class="yet_click">통계</span>
+                    </button>
+                </a>      
+
+                <a href="{% url 'site_admin:setting' %}">
+                    <button class="setting">
+                        <div class="name"></div>
+                        <span class="yet_click">관리자설정</span>
+                    </button>
+                </a>
+            </div>
+            <div class="content">
+                <div class="title">전체내역</div>
+                <div class="main">
+                    <!-- ----------------------- 테이블 시작 ------------------------------- -->
+                    <div class="table_container">
+                        <div class="recent" >
+                            <table id="table_recent">
+                                <thead>  
+                                    <tr>
+                                        <th scope="col" id="col">화면</th>
+                                        <th scope="col" id="col">위치</th>
+                                        <th scope="col" id="col">시간</th>
+                                        <th scope="col" id="col">대응</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="info_table_tbody">
+                                </tbody>
+                            </table>                        
+                        </div>
+                    
+
+                        <!-- -------------row가 6개 이상 생기면 table 하나 더 생김---------------------- -->
+                        <div class="recent2" > 
+                            <table id="table_recent">
+                                <thead>  
+                                    <tr>
+                                        <th scope="col" id="col">화면</th>
+                                        <th scope="col" id="col">위치</th>
+                                        <th scope="col" id="col">시간</th>
+                                        <th scope="col" id="col">대응</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="info_table_tbody2">
+
+                                </tbody>
+                            </table>    
+                        </div>
+                    </div>
+                </div>
+                <div id='page'>
+                    <div id="pagination"></div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

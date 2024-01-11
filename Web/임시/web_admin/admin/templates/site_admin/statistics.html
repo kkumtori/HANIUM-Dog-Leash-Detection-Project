@@ -1,0 +1,196 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+
+        <!--chart js-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!--date picker bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+
+        <link rel="stylesheet" href="{% static 'css/statistics.css' %}">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.ko.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <!-- <script defer type="module" src="{% static 'js/statistics.js' %}"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/danfojs@1.1.2/lib/bundle.min.js"></script> 
+        <script src="{% static 'js/statistics.js' %}"></script>
+        <script src="/static/js/topalarmicon.js"></script>
+
+        <title>통계</title>
+    </head>
+    <body>
+        <div class="v20_125">
+            <div class="top">
+                <a href=""><img src="/../static/images/LOGO.svg" 
+				style="vertical-align: middle;border-style: none;"/></a>
+                <span class = 'new'>신규알람 6건
+                    <img class='bell' src="\web_admin\admin\static\images\bell.svg"/>
+                </span>
+            </div>
+            <div class="side">
+                <a href="{% url 'site_admin:main' %}">
+                    <button class="dashboard">
+                        <div class="name"></div>
+                        <span class="yet_click">대시보드</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:detail' %}">
+                    <button class="total">
+                        <div class="name"></div>
+                        <span class="yet_click">전체내역</span>
+                    </button>
+                </a>
+
+                <a href="{% url 'site_admin:liveCam' %}">
+                    <button class="livecam">
+                        <div class="name"></div>
+                        <span class="yet_click">LIVECAM</span>
+                    </button>
+                </a>    
+
+                <a href="{% url 'site_admin:statistics' %}">
+                    <button class="statistic">
+                        <div class="name"></div>
+                        <span class="now_click">통계</span>
+                    </button>
+                </a>        
+
+                <a href="{% url 'site_admin:setting' %}">
+                    <button class="setting">
+                        <div class="name"></div>
+                        <span class="yet_click">관리자설정</span>
+                    </button>
+                </a>
+            </div>
+            <div class="content">
+                <div class="title">통계</div>
+                <div class="main">
+                    <!----------------------------------------------- 시간별----------------------------------------- -->
+                    <div class="time_count">
+                        <div id="subtitle">
+                            <span>시간별 알림 횟수</span>
+                            <div class="inputs">
+                                <span style="font-size: 14px;">날짜 변경</span>
+                                <form>
+                                    <div class="form-group">
+                                        <input value="TODAY    " type="text" class="form-control" id="datepicker1" style="width:114px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                        background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                    </div>
+                                </form>
+                            </div>
+                            <script> //calendar script </script>
+                        </div>
+                        <div id="chart_container_time">
+                            <canvas id="timechart"></canvas>
+                        </div>
+                    </div>
+                    <!----------------------------------------------- 요일별----------------------------------------- -->
+                    <div class="day_count">
+                        <div id="subtitle">
+                            <span>요일별 알림 횟수</span>
+                            <div class="inputs">
+                                <span style="font-size: 14px;">주차 변경</span>
+                                <form>
+                                    <div class="form-group">
+                                        <input value="SUNDAY ~ MONDAY    " type="text" class="form-control" id="datepicker2" style="width:200px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                        background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                    </div>
+                                </form>
+                            </div>
+                            <script> //calandar script </script>
+                        </div>
+                        <div id="chart_container_day">
+                            <canvas id="daychart"></canvas>
+                        </div>
+                    </div>
+                    <!----------------------------------------------- 월별----------------------------------------- -->
+                    <div class="month_count">
+                        <div id="subtitle">
+                            <span>월별 알림 횟수</span>
+                            <div class="inputs">
+                                <span style="font-size: 14px;">연도 변경</span>
+                                <form>
+                                    <div class="form-group">
+                                        <input value="2023" type="text" class="form-control" id="datepicker3" style="width:77px; background-image: url(https://img.icons8.com/color/48/calendar--v1.png);
+                                        background-position: 7px center; background-repeat: no-repeat; background-size: 20px;" control-id="ControlID-1">
+                                    </div>
+                                </form>
+                            </div>
+                            
+                            <script> //calendar script</script>
+                        </div>
+                        <div id="chart_container_month">
+                            <canvas id="monthchart"></canvas>
+                        </div>
+                    </div>
+
+                    <!----------------------------------------------- 우선순위----------------------------------------- -->
+                    <div class="small_boxes">
+                        <!-------------------------- 우선위치---------------------------------->
+                        <div class="main_place">
+                            <div id="subtitle">단속 우선 위치</div>
+                            <ul id="top-container">
+                                <li class="ranking first">
+                                    <div class="nums">1</div>
+                                    <div class="circle" style="background: #30C9CF;"></div>
+                                    <span class="top_text">(전)0110P_032</span>
+                                </li>
+                                <li class="ranking second">
+                                    <div class="nums">2</div>
+                                    <div class="circle" style="background: #3CCEA0;"></div>
+                                    <span class="top_text">(전)0110P_032</span>
+                                </li>
+                                <li class="ranking third">
+                                    <div class="nums">3</div>
+                                    <div class="circle" style="background: #9CC1F6;"></div>
+                                    <span class="top_text">(전)0110P_032</span>
+                                </li>
+
+                            </ul>
+                        </div>
+        
+    
+                        <!-------------------------- 우선시간---------------------------------->
+                        <div class="main_time">
+                            <div id="subtitle">단속 우선 시간</div>
+                            <ul id="top-container">
+                                <li class="ranking first">
+                                    <div class="nums">1</div>
+                                    <span class="top_text">PM3~4</span>
+                                </li>
+                                <li class="ranking second">
+                                    <div class="nums">2</div>
+                                    <span class="top_text">PM3~4</span>
+                                </li>
+                                <li class="ranking third">
+                                    <div class="nums">3</div>
+                                    <span class="top_text">PM3~4</span>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        
+                    </div>   
+                </div>
+
+
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

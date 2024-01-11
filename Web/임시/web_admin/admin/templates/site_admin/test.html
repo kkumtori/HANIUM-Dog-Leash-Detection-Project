@@ -1,0 +1,22 @@
+{% load static %}
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="{% static 'js/test.js' %}"></script>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">CAM</th>
+        <th scope="col">IMAGE</th>
+        <th scope="col">시간</th>
+        <th scope="col">위치</th>
+        <th scope="col">정보</th>
+        <th scope="col">대응</th>
+      </tr>
+    </thead>
+    <tbody id="info_table_tbody">
+    </tbody>
+  </table>
+</body>

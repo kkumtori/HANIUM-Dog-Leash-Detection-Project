@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Spoqa+Han+Sans+Neo&display=swap" rel="stylesheet" />
+        <!-- <link rel="stylesheet" href="{% static 'css/statistics.css' %}"/> -->
+        <title>통계</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="stat.css">
+        <script src="setting.js" defer></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.1/dist/index.min.js"></script> -->
+
+    </head>
+    <body>
+        
+        <div class="v20_125">
+            <div class="top">
+                <a href=""><img src="/../static/images/LOGO.svg" 
+				style="vertical-align: middle;border-style: none;"/></a>
+                <span class = 'new'>신규알람 6건
+                    <img class='bell' src="\web_admin\admin\static\images\bell.svg"/>
+                </span>
+            </div>
+            <div class="side">
+                <a href="">
+                    <button class="dashboard">
+                        <div class="name"></div>
+                        <span class="yet_click">대시보드</span>
+                    </button>
+                </a>
+
+                <a href="">
+                    <button class="total">
+                        <div class="name"></div>
+                        <span class="yet_click">전체내역</span>
+                    </button>
+                </a>
+
+                <a href="">
+                    <button class="livecam">
+                        <div class="name"></div>
+                        <span class="yet_click">LIVECAM</span>
+                    </button>
+                </a>    
+
+                <a href="">
+                    <button class="statistic">
+                        <div class="name"></div>
+                        <span class="now_click">통계</span>
+                    </button>
+                </a>        
+
+                <a href="">
+                    <button class="setting">
+                        <div class="name"></div>
+                        <span class="yet_click">관리자설정</span>
+                    </button>
+                </a>
+            </div>
+            <div class="content">
+				<div class="title">관리자설정</div>
+				<div class="main">
+					<div id ='left'>
+						<a id='camset'>CAM</a>
+						<div id='serachbox'>
+							<input type="text" id="spacelist" onkeyup='filter()' placeholder="설정할 카메라 위치를 검색해주세요.">
+							<button id='searchbtn' onclick="filter()">검색</button>
+						</div>
+						<div id='topselect'>
+							<div id='selectall'>
+								<label id='label_selectall'>
+								<input type="checkbox" onclick="toggleAll(this)" name='camera' value='selectall' id='checkAll'>전체선택</label>
+							</div>
+						</div>
+						<!--
+						{% if postList %}
+						<ul>
+							{% for post in postList %}
+							<li><input type="checkbox">{{ post.location }} {{ post.add }}</li>
+							{% endfor %}
+						</ul>
+						{% else %}
+						{% endif %}
+						-->
+						<ul id="cameralist" ></ul>
+					</div>
+					
+					<div id='right'>
+						<!--  음량조절 -->
+						<div id ='volume'>
+							<label for="soundcontrol" id ='volumename' >음량</label>
+							<div id='volumebox'>
+								<input type="range" onchange="setVolume()" id="volumeSlider" min="0" max="100" step="1" value="50">
+								<button onclick="muteVolume()" id='mutebtn'>음소거</button>
+							</div>
+						</div>
+						<!-- 반복 -->
+						<div id ='repeat'>
+							<div id='container1'>
+								<label id ='setname' for="repeatCount">반복 횟수(회):</label>
+								<div id ='container-box'>
+									<div id='result'>5회</div>
+									<div id ='btnbox'>
+									<input type='button' id = 'btnup'
+										onclick='count("plus")'>
+									<input type='button' id = 'btndown'
+										onclick='count("minus")'>
+									</div>
+								</div>
+							</div>
+								<!--  반복 주기  -->
+							<div id='container2'>
+								<label id ='setname' for="repeatInterval">반복 주기(분):</label>
+								<div id='container-box'>
+									<div id='result2'>3분</div>
+									<div id ='btnbox'>
+										<input type='button' id = 'btnup'
+										onclick='count2("decreaseRepeatCount")'>
+										<input type='button' id ='btndown'
+											onclick='count2("increaseRepeatCount")'>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--  무음 시간 설정  --> 
+						<div id ='repeat'>
+							<div id='container1'>
+								<label id ='setname' for="startTime">시작 시간:</label>
+								<div id='container-box'>
+									<div id='startTimeDisplay'>0시</div>
+									<div id ='btnbox'>
+										<input type='button' id = 'btnup'
+										onclick='count3("increaseTime1")'>
+										<input type='button' id = 'btndown'
+											onclick='count3("decreaseTime1")'>
+									</div>
+								</div>
+							</div>
+						
+							<div id='container2'>
+								<label id='setname' for="endTime">종료 시간:</label>
+								<div id='container-box'>
+									<div id='endTimeDisplay'>18시</div>
+									<div id ='btnbox'>
+										<input type='button' id='btnup'
+										onclick='count4("increaseTime2")'>
+										<input type='button' id='btndown'
+											onclick='count4("decreaseTime2")'>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--  안내 멘트 입력 부분 -->
+						<div id='announce'>
+							<label id='ment' for="instruction">안내멘트 입력:</label>
+							<input type="text" id="instruction">
+						</div>
+
+						<!--  설정 저장  -->
+						<div id ='save'>
+							<button id='savebtn' onclick="savePageSettings()">저장</button>
+						</div>
+						
+					</div>
+				</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,505 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: rgba(249, 249, 249, 1);
+  margin:0;
+}
+.v20_125 {
+  width: 100%;
+  height: auto; 
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.top {
+  top: 0px;
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+  border-bottom: solid 0.1rem #e5e7eb;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding-left: 48px;
+  padding-right: 48px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  }
+
+.side {
+  width: 260px;
+  height: 100%;
+  margin-top: 64px;
+  align-items: center;
+  background-color:#ffffff;
+  border-right: solid 0.1rem #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 48px;
+  position: fixed;
+  align-items: center;
+  }
+
+.content{
+  height: auto;
+  margin-top: 60px;
+  margin-left: 260px;
+  padding: 48px 24px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dashboard {
+  width: 212px;
+  height: 52px;
+  background: url("../images/view-grid.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 12px;
+  border-radius: 8px;
+  border:none;
+  
+}
+
+.total {
+  width: 212px;
+  height: 52px;
+  background: url("../images/view-list.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 112px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  display:flex;
+  border:none;
+}
+
+
+.livecam {
+  width: 212px;
+  height: 52px;
+  background: url("../images/camera.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  display:flex;
+  border:none;
+}
+
+.statistic {
+  width: 212px;
+  height: 52px;
+  background: url("../images/chart-bar-white.svg") rgba(16,185,129,1);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 272px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border:none;
+}
+
+.setting {
+  width: 212px;
+  height: 52px;
+  background: url("../images/cog.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border:none;
+}
+.name {
+  color: #fff;
+}
+
+.yet_click {
+  width: 144px;
+  color: rgba(113,113,122,1);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  margin-left: 32px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  line-height: 20px;
+}
+
+.now_click {
+  width: 144px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  margin-left: 32px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  line-height: 20px;
+}
+
+span.new {
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:  171.429%; 
+  display: flex;
+  align-items: center;
+}
+
+.bell{
+  margin-left:12px;
+  height: 24px;
+  width: 24px;
+}
+
+/*여기서부터 본문*/
+.title{
+  color: #18181B;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width:100%;
+  height:32px;
+  margin:20px 40px;
+}
+.main{
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+.time_count,.day_count,.month_count{
+  margin: 26px 20px;
+  max-width:730px;
+  min-width: 615px;
+  height:440px;
+
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(138, 138, 138, 0.15);
+  flex-shrink: 2;
+  flex-grow: 1;
+
+  padding: 24px 33px;
+}
+
+.small_boxes{
+  margin: 26px 20px;
+  max-width:700px;
+  min-width: 615px;
+  height:440px;
+  flex-shrink: 2;
+  flex-grow: 1;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 45px;
+
+}
+
+.main_place{
+  float: left;
+  width:325px;
+  height:100%;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(138, 138, 138, 0.15);
+
+  padding: 24px 33px;
+}
+.main_time{
+  float: right;
+  width:325px;
+  height:100%;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(138, 138, 138, 0.15);
+
+  padding: 24px 33px;
+}
+
+#subtitle{
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+#subtitle_time{
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+#chart_container_time, #chart_container_day, #chart_container_month{
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#chart_container{
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+}
+.inputs{
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap:14px;
+  align-items: center;
+}
+
+
+/* 부트스트랩 */
+.datepicker{
+  padding: 15px;
+}
+.datepicker table{
+  width:250px;
+  height:200px;
+  font-size: 13px;
+}
+
+.datepicker table th{
+  font-size: 16px;
+}
+
+.datepicker table th.dow{
+  font-size: 13px;
+}
+.datepicker table tr td span.active.active,.datepicker table tr td span.active{
+  background-color: rgba(16,185,129,1);
+  background-image: linear-gradient(to bottom,rgba(16,185,129,1),rgba(16,185,129,1));
+}
+.datepicker table tr td.active, datepicker table .active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
+  background-color: rgba(16,185,129,1);
+  background-image: linear-gradient(to bottom,rgba(16,185,129,1),rgba(16,185,129,1));
+  color: #fff;
+  text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.datepicker table tr td.today, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover {
+  background-image: linear-gradient(to bottom,rgb(188, 236, 220),rgb(188, 236, 220));
+  border-color: rgb(164, 224, 204) rgb(164, 224, 204) rgba(0,0,0,.25);
+  color: #000;
+}
+
+.datepicker table tr td.new.day, .datepicker table tr td.old.day {
+  color: #999;
+}
+
+.form-group {
+  margin:0px;
+}
+
+.form-control {
+  display:inline-block;
+  width: 65%;
+  height: calc(1.5em + 0.75rem + 2px);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+
+  color: #52525B;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  text-align: right;
+  padding-right: 15px;
+  margin-right:0px;
+}
+
+.highlight-selected {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+
+.datepicker table tr.week-active,
+.datepicker table tr.week-active td,
+.datepicker table tr.week-active td:hover,
+.datepicker table tr.week-active.week td,
+.datepicker table tr.week-active.week td:hover,
+.datepicker table tr.week-active.week,
+.datepicker table tr.week-active:hover{
+  background-color: rgba(16,185,129,1);
+  background-image: -moz-linear-gradient(top, rgba(16,185,129,1), rgba(16,185,129,1));
+  background-image: -ms-linear-gradient(top, rgba(16,185,129,1),rgba(16,185,129,1));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(16,185,129,1)), to(rgba(16,185,129,1)));
+  background-image: -webkit-linear-gradient(top, rgba(16,185,129,1), rgba(16,185,129,1));
+  background-image: -o-linear-gradient(top, rgba(16,185,129,1), rgba(16,185,129,1));
+  background-image: linear-gradient(top, rgba(16,185,129,1), rgba(16,185,129,1));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(16,185,129,1)', endColorstr='rgba(16,185,129,1)', GradientType=0);
+  border-color: rgba(16,185,129,1) rgba(16,185,129,1) rgba(16,185,129,1);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -0 0 rgba(0, 0, 0, 0);
+  border-radius: 0rem;
+}
+
+.datepicker table tr.week-over,
+.datepicker table tr.week-over td,
+.datepicker table tr.week-over td:hover,
+.datepicker table tr.week-over.week td,
+.datepicker table tr.week-over.week td:hover,
+.datepicker table tr.week-over.week,
+.datepicker table tr.week-over:hover{
+  background-color: rgb(228, 228, 228);
+  background-image: -moz-linear-gradient(top,rgb(228, 228, 228),rgb(228, 228, 228));
+  background-image: -ms-linear-gradient(top,rgb(228, 228, 228),rgba(249, 249, 249, 1));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(249, 249, 249, 1)), to(rgba(249, 249, 249, 1)));
+  background-image: -webkit-linear-gradient(top,rgb(228, 228, 228),rgb(228, 228, 228));
+  background-image: -o-linear-gradient(top,rgb(228, 228, 228),rgb(228, 228, 228));
+  background-image: linear-gradient(top,rgb(228, 228, 228),rgb(228, 228, 228));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(249, 249, 249, 1)', endColorstr='rgba(249, 249, 249, 1)', GradientType=0);
+  border-color:rgb(228, 228, 228)rgb(228, 228, 228)rgb(228, 228, 228);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-radius: 0rem;
+}
+
+#top-container{
+  height:80%;
+  padding-top: 30px;
+  padding-left: 0px;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  row-gap: 15px;
+}
+
+#top-container li{
+  list-style:none;
+}
+
+.ranking{
+  width: 80%;
+  height: 68px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ECECEC;
+  background: #FFF;
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:0px;
+}
+.nums{
+  width:28px;
+  height:28px;
+  padding: 4px;
+  border-radius: 5px;
+  background: #F4F4F4;
+
+  color: #AAA;
+  text-align: center;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-left:30px;
+  margin-right:10px;
+}
+.top_text{
+  color: #606060;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

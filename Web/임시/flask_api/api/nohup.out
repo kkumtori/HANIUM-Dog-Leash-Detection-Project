@@ -1,0 +1,1075 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+Permission denied
+ * Serving Flask app 'app'
+ * Debug mode: on
+Permission denied
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.1.133:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 292-617-816
+1.223.6.138 - - [17/Sep/2023 12:50:12] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:12] "GET /favicon.ico HTTP/1.1" 404 -
+1.223.6.138 - - [17/Sep/2023 12:50:17] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:17] "GET /favicon.ico HTTP/1.1" 404 -
+1.223.6.138 - - [17/Sep/2023 12:50:18] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:18] "GET /favicon.ico HTTP/1.1" 404 -
+1.223.6.138 - - [17/Sep/2023 12:50:26] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:26] "GET /favicon.ico HTTP/1.1" 404 -
+1.223.6.138 - - [17/Sep/2023 12:50:26] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:26] "GET /favicon.ico HTTP/1.1" 404 -
+1.223.6.138 - - [17/Sep/2023 12:50:27] "GET /api/informations HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:50:27] "GET /favicon.ico HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 12:50:59] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 12:51:00] "GET /favicon.ico HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 12:51:12] "GET /api/informations HTTP/1.1" 200 -
+124.49.146.214 - - [17/Sep/2023 12:51:20] "GET /api/informations HTTP/1.1" 200 -
+124.49.146.214 - - [17/Sep/2023 12:51:20] "GET /favicon.ico HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 12:51:34] "GET /api/dounut HTTP/1.1" 200 -
+1.223.6.138 - - [17/Sep/2023 12:51:34] "GET /api/informations HTTP/1.1" 200 -
+27.0.238.182 - - [17/Sep/2023 12:52:02] "GET / HTTP/1.0" 404 -
+61.251.244.75 - - [17/Sep/2023 12:57:44] "GET /api/time_three_graph HTTP/1.1" 200 -
+182.172.56.199 - - [17/Sep/2023 12:57:46] "GET /api/time_three_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 12:57:47] "GET /api/place_three_graph HTTP/1.1" 200 -
+1.225.35.132 - - [17/Sep/2023 12:57:49] "GET /api/place_three_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 12:57:50] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 13:10:04] "GET /api/informations HTTP/1.1" 200 -
+198.199.116.114 - - [17/Sep/2023 13:15:20] code 400, message Bad request syntax ('MGLNDD_43.202.121.88_80')
+198.199.116.114 - - [17/Sep/2023 13:15:20] "MGLNDD_43.202.121.88_80" HTTPStatus.BAD_REQUEST -
+27.0.238.70 - - [17/Sep/2023 13:47:57] "GET /api/informations HTTP/1.0" 200 -
+45.79.128.205 - - [17/Sep/2023 13:57:57] code 400, message Bad request version ('À\x14À')
+45.79.128.205 - - [17/Sep/2023 13:57:57] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03Àk!\x82Æ\x15G¸ö\x95\x84rKa`j\x0f?\x86\x9e¬\x17\\+\x9cÇ¡È`_K\x84\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+43.155.118.219 - - [17/Sep/2023 14:09:14] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 14:38:44] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:49:05] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:49:05] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:49:58] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:49:58] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:50:04] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:50:04] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:51:16] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:51:16] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:52:11] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:52:11] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:52:14] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:07] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:07] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:07] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:07] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:43] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:43] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:43] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:53:43] "GET /api/dounut HTTP/1.1" 200 -
+54.162.114.134 - - [17/Sep/2023 14:53:57] "GET /.env HTTP/1.1" 404 -
+54.162.114.134 - - [17/Sep/2023 14:53:58] "POST / HTTP/1.1" 404 -
+54.162.114.134 - - [17/Sep/2023 14:53:58] "GET /sendgrid/.env HTTP/1.1" 404 -
+54.162.114.134 - - [17/Sep/2023 14:53:59] "POST / HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 14:59:56] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:59:56] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:59:56] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 14:59:56] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 752, in _read_packet
+    raise err.InternalError(
+pymysql.err.InternalError: Packet sequence number wrong - got 1 expected 44
+61.251.244.75 - - [17/Sep/2023 15:00:02] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:00:02] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:02] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:02] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:02] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:28] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:00:28] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:28] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:28] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:28] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:31] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:00:31] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:31] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:31] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:31] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:00:36] "GET /api/time_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 204, in time_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:00:36] "GET /api/time_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:36] "GET /api/time_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:36] "GET /api/time_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:00:37] "GET /api/time_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.1.133:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-397-351
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+61.251.244.75 - - [17/Sep/2023 15:13:07] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:13:14] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:13:14] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:13:14] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:13:14] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:14:48] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:14:48] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:14:48] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:14:48] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:15:43] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:15:43] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:15:43] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:15:43] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:16:19] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:16:19] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:16:19] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:16:19] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 558, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 822, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 1200, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 752, in _read_packet
+    raise err.InternalError(
+pymysql.err.InternalError: Packet sequence number wrong - got 1 expected 44
+61.251.244.75 - - [17/Sep/2023 15:16:34] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:16:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:38] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:16:38] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:38] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:38] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:16:38] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+61.251.244.75 - - [17/Sep/2023 15:18:55] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:18:56] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/ubuntu/flask_api/api/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-397-351
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+61.251.244.75 - - [17/Sep/2023 15:24:45] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:24:45] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:24:45] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:24:45] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:24:49] "GET /api/informations HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 27, in informations
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:24:49] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:25:19] "GET /api/place_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 237, in place_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:25:19] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:25:19] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:25:19] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:25:19] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:25:20] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 46, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:25:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:25:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:25:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:25:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/ubuntu/flask_api/api/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-397-351
+61.251.244.75 - - [17/Sep/2023 15:28:20] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 45, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:20] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:34] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 45, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:34] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+61.251.244.75 - - [17/Sep/2023 15:28:45] "GET /api/dounut HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 45, in dounut
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:45] "GET /api/dounut?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:45] "GET /api/dounut?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:45] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:45] "GET /api/dounut?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/place_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 234, in place_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/month_location_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 174, in month_location_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/month_location_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/month_location_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/month_location_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:28:46] "GET /api/month_location_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:47] "GET /api/place_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 234, in place_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 153, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 322, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 557, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/connections.py", line 840, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+61.251.244.75 - - [17/Sep/2023 15:28:47] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:47] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:47] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:28:47] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/ubuntu/flask_api/api/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-397-351
+61.251.244.75 - - [17/Sep/2023 15:31:15] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:31:16] "GET /api/place_three_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:31:16] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:31:17] "GET /api/place_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 233, in place_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:31:17] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:17] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:17] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:17] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:18] "GET /api/place_three_graph HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 233, in place_three_graph
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+61.251.244.75 - - [17/Sep/2023 15:31:18] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:18] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:18] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+61.251.244.75 - - [17/Sep/2023 15:31:18] "GET /api/place_three_graph?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+27.0.238.114 - - [17/Sep/2023 15:31:39] "GET /api/informations HTTP/1.0" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/flask_api/api/app.py", line 26, in informations
+    cur.execute(sql)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 148, in execute
+    while self.nextset():
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 98, in nextset
+    return self._nextset(False)
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 85, in _nextset
+    conn = self._get_db()
+  File "/usr/local/lib/python3.10/dist-packages/pymysql/cursors.py", line 67, in _get_db
+    raise err.ProgrammingError("Cursor closed")
+pymysql.err.ProgrammingError: Cursor closed
+ * Detected change in '/home/ubuntu/flask_api/api/app.py', reloading
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.1.133:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 179-397-351
+61.251.244.75 - - [17/Sep/2023 15:32:20] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:21] "GET /api/place_three_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:21] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:32] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:32] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:32] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:32] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:33] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:33] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:33] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:34] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:34] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:34] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:32:34] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:33:03] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:33:03] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:33:03] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:33:03] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:38:29] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:38:29] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:38:29] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:38:29] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:40:04] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:40:04] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:40:04] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:40:04] "GET /api/dounut HTTP/1.1" 200 -
+43.155.118.219 - - [17/Sep/2023 15:42:51] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 15:47:12] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:12] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:40] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:40] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:47] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:47] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:47] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:47:47] "GET /api/dounut HTTP/1.1" 200 -
+172.105.128.11 - - [17/Sep/2023 15:47:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+172.105.128.11 - - [17/Sep/2023 15:47:59] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03ô\x08À}\x08\x8e\x02\x1a:B­-,×»\x8b\x8cìI©'©,F\x95\x9f¹¸" HTTPStatus.BAD_REQUEST -
+61.251.244.75 - - [17/Sep/2023 15:54:32] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:54:32] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:55:04] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:55:04] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:55:04] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:55:04] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:56:54] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:56:54] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:56:54] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:56:54] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:57:41] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:57:41] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:57:41] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:57:41] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:36] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:36] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:36] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:36] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:44] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:44] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:44] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 15:58:44] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:10] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:10] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:10] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:10] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:24] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:24] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:24] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:24] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:31] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:31] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:31] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:01:31] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:02:18] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:02:18] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:02:18] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:02:18] "GET /api/informations HTTP/1.1" 200 -
+150.129.134.106 - - [17/Sep/2023 16:06:29] "GET / HTTP/1.0" 404 -
+61.251.244.75 - - [17/Sep/2023 16:07:48] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:07:48] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:07:48] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:07:48] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:09:50] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:09:50] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:09:50] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:09:50] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:02] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:02] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:02] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:02] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:54] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:54] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:54] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:12:54] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:13:45] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:13:45] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:13:45] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:13:45] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:15:31] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:15:31] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:15:31] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:15:31] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:16:53] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:16:53] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:16:53] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:16:53] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:18:25] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:18:25] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:18:25] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:18:25] "GET /api/informations HTTP/1.1" 200 -
+109.237.98.226 - - [17/Sep/2023 16:18:33] "GET /.env HTTP/1.1" 404 -
+109.237.98.226 - - [17/Sep/2023 16:18:33] code 400, message Bad request version ('\x82\x94Ãg\x13Ý\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+109.237.98.226 - - [17/Sep/2023 16:18:33] "\x16\x03\x01\x01H\x01\x00\x01D\x03\x03\x08Ù´Ýû\x81ºýè÷ètÍÝ\x09L°Ã\x01HÔ¬O\x03Bò\x135\x98»´p 1\x8e\x95×b\x07S»ì~ep\\×§\x17&lihß1\x9c!\x8a\x09\x82\x94Ãg\x13Ý\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À­À$À(À" HTTPStatus.BAD_REQUEST -
+61.251.244.75 - - [17/Sep/2023 16:19:07] "GET /api/main_time HTTP/1.1" 200 -
+1.225.35.100 - - [17/Sep/2023 16:19:09] "GET /api/main_time HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:24:28] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:24:28] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:24:29] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:24:29] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:24:29] "GET /api/informations HTTP/1.1" 200 -
+124.49.146.214 - - [17/Sep/2023 16:27:53] "GET /api/month_location_graph HTTP/1.1" 200 -
+124.49.146.214 - - [17/Sep/2023 16:28:08] "GET /api/month_location_graph HTTP/1.1" 200 -
+124.49.146.214 - - [17/Sep/2023 16:28:37] "GET /api/day_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:36:04] "GET /api/dounut HTTP/1.1" 200 -
+139.162.84.205 - - [17/Sep/2023 16:37:58] "GET / HTTP/1.0" 404 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "OPTIONS /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "OPTIONS /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:38:57] "GET /api/informations HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 16:40:07] "GET /api/main_location HTTP/1.1" 200 -
+58.123.220.11 - - [17/Sep/2023 16:40:09] "GET /api/main_location HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:48] "GET /api/main_location HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:51] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:52] "GET /api/main_time HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:52] "GET /api/place_three_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:53] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:11:54] "GET /api/month_location_graph HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:12:01] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:14:03] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:14:04] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:14:05] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:14:05] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:14:05] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:16:26] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:16:42] "GET /api/dounut HTTP/1.1" 200 -
+43.155.118.219 - - [17/Sep/2023 17:17:15] "HEAD /Core/Skin/Login.aspx HTTP/1.1" 404 -
+61.251.244.75 - - [17/Sep/2023 17:18:44] "GET /api/dounut HTTP/1.1" 200 -
+61.251.244.75 - - [17/Sep/2023 17:18:45] "GET /api/main_location HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/flask_api/api/app.py', reloading

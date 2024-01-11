@@ -1,0 +1,611 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: rgba(249, 249, 249, 1);
+  margin:0;
+}
+.v20_125 {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.top {
+  top: 0px;
+  width: 100%;
+  height: 72px;
+  background-color: #ffffff;
+  border-bottom: solid 0.1rem #e5e7eb;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding-left: 48px;
+  padding-right: 48px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  }
+
+.side {
+  width: 260px;
+  height: 100%;
+  margin-top: 64px;
+  align-items: center;
+  background-color:#ffffff;
+  border-right: solid 0.1rem #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 48px;
+  position: fixed;
+  align-items: center;
+  }
+
+.content{
+  display: flex;
+  flex-shrink: 0;
+  height: 100%;
+  margin-top: 60px;
+  margin-left: 260px;
+  padding: 48px 24px;
+  flex-direction: column;
+}
+
+.dashboard {
+  width: 212px;
+  height: 52px;
+  background: url("../images/view-grid.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 12px;
+  border-radius: 8px;
+  border:none;
+  
+}
+
+.total {
+  width: 212px;
+  height: 52px;
+  background: url("../images/view-list.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 112px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  display:flex;
+  border:none;
+}
+
+
+.livecam {
+  width: 212px;
+  height: 52px;
+  background: url("../images/camera.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  display:flex;
+  border:none;
+}
+
+.statistic {
+  width: 212px;
+  height: 52px;
+  background: url("../images/chart-bar.svg");
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 272px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border:none;
+}
+
+.setting {
+  width: 212px;
+  height: 52px;
+  background: url("../images/cog-white.svg") rgba(16,185,129,1);
+  background-repeat: no-repeat;
+  background-position: 16px center;
+  padding: 16px 16px;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border:none;
+}
+.name {
+  color: #fff;
+}
+
+.yet_click {
+  width: 144px;
+  color: rgba(113,113,122,1);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  margin-left: 32px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  line-height: 20px;
+}
+
+.now_click {
+  width: 144px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  margin-left: 32px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  line-height: 20px;
+}
+
+span.new {
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:  171.429%; 
+  display: flex;
+  align-items: center;
+}
+
+.bell{
+  margin-left:12px;
+  height: 24px;
+  width: 24px;
+}
+/*여기서부터 본문*/
+
+.title{
+  color: #18181B;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width:100%;
+  height:32px;
+  margin:20px 40px;
+}
+.main{
+  display: flex;
+  margin: 20px;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+/* 카메라 선택부분.*/
+#camset{
+  display: flex;
+  width: 560px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+
+  margin-bottom: 10px;
+  margin-top: 28px;
+  }
+  #serachbox{
+    display: inline-flex;
+
+    width: 648;
+  
+  }
+  #spacelist{
+  width: 544px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid #DCDFE5;
+  background: #FFF;
+  }
+  
+  #searchbtn{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background: #10B981;
+    width: 96px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 133.333% */
+    cursor: pointer; 
+    transition:all 0.9s, color 0.3;  
+    margin-left: 8px;
+  }
+#searchbtn:hover{
+  color: #fff;;
+  box-shadow: 0 80px 0 0  rgba(0,0,0,0.25) inset, 
+  0 -80px 0 0 rgba(0,0,0,0.25) inset;
+}
+
+#topselect {
+    display: flex;
+
+    align-items:center;
+    margin-top:40px;  
+    width: 648px;
+    justify-content: flex-start;
+  }
+  
+/* 리스트 설정.*/
+#itemsPerPage{
+  color: #404040;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#selectall{
+  color: #404040;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right:auto;
+
+}
+#label_selectall{
+  display: flex;
+  align-items: center;
+}
+#label_selectall:hover { color:#10B981; transition:all .3s ease }
+
+#checkAll{
+  border-radius: 2px;
+  border: 2px solid #CBD0D9;
+  background: #FFF;
+  width: 18px;
+  height: 18px;
+  accent-color:#287159;
+  }
+/*camera select list*/
+#cameralist{
+  width: 648px;
+  height: 680px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid #DCDFE5;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+#cameraname{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#cam {
+  margin-top: 16px;
+  color: #404040;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#cam:hover { color:#10B981; transition:all .3s ease }
+.camcb{
+  border-radius: 2px;
+  border: 2px solid #CBD0D9;
+  width: 18px;
+  height: 18px;
+  accent-color:#287159;
+}
+#left{
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+#right{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#volume{
+  display: flex;
+  flex-direction: column;
+}
+#volumename{
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#volumebox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+#volumeSlider{
+  width: 520px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid #DCDFE5;
+  accent-color: #16cc8f;
+}
+#mutebtn{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background: #10B981;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 133.333% */
+  cursor: pointer; 
+  transition:all 0.9s, color 0.3;  
+  width: 60px;
+  height: 30px;
+}
+#mutebtn:hover{
+  color: #fff;;
+  box-shadow: 0 80px 0 0  rgba(0,0,0,0.25) inset, 
+  0 -80px 0 0 rgba(0,0,0,0.25) inset;
+}
+#repeat{
+  display: flex;
+}
+
+#setname{
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#container1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+#container2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-left:40px
+}
+
+#container-box{
+  display: flex;
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1.5px solid #DCDFE5;
+  background: #FFF;
+  width: 300px;
+  height: 56px;
+  flex-shrink: 0;
+  align-items: center;
+}
+#btnbox{
+  display: flex;
+  flex-direction: column;
+}
+#endTimeDisplay{
+  margin-left: 16px;
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width:256px;
+  height: 56;
+}
+#startTimeDisplay{
+  margin-left: 16px;
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width:256px;
+  height: 56;
+}
+#repeatnum{
+  margin-left: 16px;
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width:256px;
+  height: 56;
+}
+
+
+#repeatTime{
+  margin-left: 16px;
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  width:256px;
+  height: 56;
+}
+#btnup{
+  border-radius: 0px 8px 0px 0px;
+  border: 1.5px solid #DCDFE5;
+  width: 44px;
+  height: 28px;
+  flex-shrink: 0;
+  background: url('/../static/images/chevron-up.svg') no-repeat;
+  background-position: center;
+}
+
+#btndown{
+  border-radius: 0px 0px 8px 0px;
+  border: 1.5px solid #DCDFE5;
+  width: 44px;
+  height: 28px;
+  background: url('/../static/images/chevron-down.svg') no-repeat;
+  background-position: center;
+}
+
+#announce{
+  display:flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+#ment{
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#instruction{
+  margin-top: 24px;
+  width: 640px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1.5px solid #DCDFE5;
+  background: #FFF;
+  color: #27272A;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+#save{
+  margin-top:86px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#savebtn{
+  display: inline-flex;
+  padding: 12px 80px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  border: 0;
+  background: linear-gradient(135deg, #10B981 0%, #3CAD88 100%);
+  color: #FFF;
+  text-align: center;
+  font-family: Spoqa Han Sans Neo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 133.333% */
+}
+
+#savebtn:hover{
+  color: #fff;;
+  box-shadow: 0 80px 0 0  rgba(0,0,0,0.25) inset, 
+  0 -80px 0 0 rgba(0,0,0,0.25) inset;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border-radius :5px;
+  box-shadow :2px 2px rgba(255 ,255 ,255 ,.5);
+  width :30%;
+  max-width :500px;
+  min-width :200px;
+}
